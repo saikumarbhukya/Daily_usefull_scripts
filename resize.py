@@ -14,7 +14,7 @@ def resize_images(input_folder, output_folder, width=2048, height=390):
                 resized_img.save(output_path)
                 print(f"Resized and saved {filename} to {output_folder}")
 
-input_folder = '/home/zestiot/Desktop/Zestiot/PROJECTS/JSW/data/dataset_24.08.24'
-output_folder = '/home/zestiot/Desktop/Zestiot/PROJECTS/JSW/data/dataset_24.08.24_out'
+input_folder = '/home/zestiot/Desktop/Zestiot/PROJECTS/JSW/data/Low_quality_images/1'
+output_folder = '/home/zestiot/Desktop/Zestiot/PROJECTS/JSW/data/Low_quality_images/1-out'
 
 resize_images(input_folder, output_folder)
